@@ -1,0 +1,71 @@
+.content__container-left {
+	width: 40%;
+	text-align: center;
+	float: left;
+}
+
+.content__container-right {
+	width: 56%;
+	float: right;
+}
+
+.content__container-img {
+	border: 3px solid #fff;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.content__container-img img {
+	display: block;
+	width: 220px;
+	height: auto;
+}
+
+.content__container-title {
+	color: #414141;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.content__container-text {
+	height: 300px;
+    overflow-x: auto;
+    margin-bottom: 45px;
+}
+
+.content__container-right p {
+	color: #646464;
+    font-size: 18px;
+    font-weight: lighter;
+    
+}
+
+
+
+.content__container-download {
+	text-align: right;
+}
+
+.content__container-download-link {
+	display: inline-block;
+	border: 2px solid #e85f61;
+	border-radius: 20px;
+	padding: 9px 12px;
+	text-decoration: none;
+	color: #e85f61;
+	text-align: center;
+	align-items: middle;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content__container-download-link:hover {
+	background-color: #e85f61;
+	color: #fff;
+}
+
+.content__container-download-text {
+	
+}

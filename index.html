@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru-Ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Сайт портфолио">
+    <meta name="keywords" content="сайт, приложение, html, css">
+    <meta name="author" content="Масной Алексей">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="css/layout/normalize.css">
+    <link rel="stylesheet" href="css/layout/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <!-- content -->
+<body>
+    <div class="wrapper wrapper__auth">
+        <div class="auth">
+            <div class="auth__top">
+                <div class="auth__avatar" style="background-image: url('img/content/my_foto.jpg')"></div>
+                <div class="auth__name">Масной Алексей</div>
+            </div>
+            <div class="auth__bottom">
+                <a href="about.html" class="content__container-download-link white-link">Перейти на сайт</a>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- script -->
+<script>
+    window.onload = function() {
+        document.querySelector('.auth').classList.add('bounceIn');
+    };
+
+</script>
+</html>

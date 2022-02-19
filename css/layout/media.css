@@ -1,0 +1,321 @@
+
+/* Desktop*/
+
+@media screen and (max-width: 1200px) {
+	.container {
+	    width: 940px;
+    	box-sizing: border-box;
+	}
+}
+
+/* laptop*/
+
+@media screen and (max-width: 992px) {
+	.container {
+	    width: 728px;
+	}
+
+	.content, .navbar {
+		float: none;
+	}
+
+/* ---- хедер ----*/
+
+	.header__left-name {
+		margin-left: 5px;
+	}
+
+/* --------end--------- */
+
+/* ---- навигация ---- */
+
+	.navbar {
+		text-align: left;
+		margin-bottom: 40px;
+		width: 100%;
+	}
+
+	.nav-item {
+    	display: inline-block;
+	}
+
+	.nav-link__active {
+	    border-right: none;
+	    margin-left: 0;
+	    color: #32c3e5;
+	}
+
+/* --------end--------- */
+
+
+
+/* ---- контент Обо мне---- */
+
+	.content {
+		margin: 0 auto;
+		width: 86%;
+	}
+
+	.content__container-img img {
+	    width: 165px;
+	}
+
+	.content__container-left {
+		width: 26%;
+	}
+
+	.content__container-right {
+		width: 67%;
+	}
+
+	.content__container-text {
+	    height: 370px;
+	}
+
+/* --------end--------- */
+
+
+
+/* ---- контент Карьера ----*/
+
+	.career__content {
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+/* ---------end-------- */
+
+/* ---- контент Портфолио ----*/
+
+	.portf__content {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.portfolio__item {
+		margin: 0 0 15px 15px;
+	}
+
+/* ---------end-------- */
+
+}
+
+/* tablet*/
+
+@media screen and (max-width: 768px) {
+
+	.container {
+	    width: 480px;
+	}
+
+	.wrapper:after {
+    	height: 95px;
+	}
+
+/* ---- хедер ----*/
+
+	.header__left {
+		width: 70%;
+	}
+
+	.header__right {
+		width: 30%;
+	}
+
+	.header__right-link__text {
+		display: none;
+	}
+
+	.header__right-link i {
+	    display: block;
+	    font-size: 2rem;
+	}
+
+	.header__right-contacts:hover .contacts__dropdown {
+    	left: auto;
+	    right: 0;
+	    transform: translateX(0);
+	}
+
+/* --------end--------- */
+
+
+/* ---- навигация ---- */
+
+	.navbar {
+		text-align: center;
+		margin-bottom: 40px;
+		width: 100%;
+	}
+
+	.nav-item {
+    	display: inline-block;
+    	vertical-align: middle;
+	}
+
+	.nav-link__active {
+	    border-right: none;
+	    margin-left: 0;
+    	font-weight: bold;
+	}
+
+	.contacts__dropdown-triangle:after, .contacts__dropdown-triangle:before {
+		right: 0;
+	}
+
+/* ---------end-------- */
+
+/* ---- контент Обо мне ----*/
+
+	.content__container-download {
+		text-align: center;
+	}
+
+	.content__container-left, .content__container-right {
+		width: 100%;
+		float: none;
+	}
+
+/* ---------end-------- */
+
+/* ---- контент Карьера ----*/
+
+	.career-left, .career-right {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.content__container-title {
+		text-align: center;
+	}
+
+	.career__year, .career__block:before, .career__block:after {
+		display: none;
+	}
+
+
+/* ---------end-------- */
+
+/* ----- футер -----*/
+
+	.footer {
+		height: 95px;
+		margin-top: -95px;
+	}
+
+	.footer__content-left, .footer__content-right {
+		display: block;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.footer__content-items {
+	}
+
+/* ---------end--------*/
+
+}
+
+/* phone*/
+
+@media screen and (max-width: 480px) {
+
+	.container {
+	    width: 95%;
+	}
+
+/* ---- хедер ----*/
+
+	.header__left {
+		width: 70%;
+	}
+
+	.header__left-name {
+		font-size: 0.875rem;
+	}
+
+	.header__right {
+		width: 30%;
+	}
+
+	.header__right-link__text {
+		display: none;
+	}
+
+	.header__right-link i {
+    display: block;
+    font-size: 2rem;
+	}
+
+/* ---------end-------- */
+
+
+/* ---- навигация ---- */
+
+	.nav-item {
+		font-size: 0.875rem;
+	}
+	
+	.nav-link {
+		padding: 0;
+		padding-left: 5px;
+	}
+
+	.nav-link:hover {
+	color: #33bde0;
+	font-size: 0.875rem;
+}
+	.nav-link i {
+		display: none;
+	}
+
+
+/* ---------end-------- */
+
+/* ---- контент Обо мне ----*/
+
+/* ---------end-------- */
+
+/* ---- контент Карьера ----*/
+
+	.career-left, .career-right {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.content__container-title {
+		text-align: center;
+	}
+
+/* ---------end-------- */
+
+
+/* ---- контент Портфолио ----*/
+	.portfolio__list {
+		margin: 0;
+	}
+
+	.portfolio__item {
+		display: block;
+		width: 100%;
+		margin: 0 auto 10px;;
+	}
+
+/* ---------end-------- */
+
+
+/* ----- футер -----*/
+
+/* --------end---------*/
+
+.dropdown__text {
+    font-family: 'FiraSans-Light';
+    font-size: 0.875rem;
+    color: #414141;
+	}
+
+}

@@ -1,0 +1,145 @@
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.header__left {
+    font-size: 21px;
+}
+
+.header__left:before, .header__right:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.header__right {
+    text-align: right;
+    font-size: 18px;
+}
+
+.header__left-img, .header__left-name {
+    display: inline-block;
+}
+
+.header__left-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__left-img {
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.header__left-img img {
+    display: block;
+    width: 100%;
+}
+
+.header__left-name {
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.header__right-contacts {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.header__right-contacts:hover .contacts__dropdown{
+    left: 0;
+}
+
+.header__right-contacts:focus .contacts__dropdown{
+    left: 0;
+}
+
+
+.header__right-link {
+    text-decoration: none;
+    color: #32c3e5;
+    border-bottom: 1px dashed #33c1e3;
+    font-weight: 400;
+}
+
+.header__right-link:hover {
+    color: #e85f61;
+    border-color: #e85f61;
+}
+
+.header__right-link i {
+    display: none;
+}
+
+.contacts__dropdown-triangle:after, .contacts__dropdown-triangle:before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 70px;
+    transform: translate(-50%);
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+}
+
+.contacts__dropdown-triangle:before {
+    border-bottom-color: #414141;
+}
+
+.contacts__dropdown-triangle:after {
+    border-bottom-color: #fff;
+    margin-top: 1px;
+}
+
+.contacts__dropdown {
+    position: absolute;
+    padding: 15px 20px;
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    top: 100%;
+    left: -9999px;
+    z-index: 20;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+.contacts__dropdown:before {
+    content: "";
+    display: block;
+    left: 0;
+    right: 0;
+    height: 30px;
+    margin-top: -35px;
+    position: absolute;
+}
+
+.dropdown__item {
+    margin-bottom: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.dropdown__item:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown__item i {
+    color: #33bde0;
+    margin-right: 15px;
+}
+
+.dropdown__text {
+    font-family: 'FiraSans-Light';
+    font-size: 1.125rem;
+    color: #414141;
+}

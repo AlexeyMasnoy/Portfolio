@@ -1,0 +1,38 @@
+.navbar {
+	float: left;
+	width: 23%;
+	text-align: right;
+    font-size: 18px;
+}
+
+.nav-link {
+	display: block;
+	text-decoration: none;
+	color: #414141;
+	padding: 10px 20px 10px 0;
+	font-weight: 400;
+}
+
+.nav-link-text {
+}
+
+.nav-link__active {
+	border-right: 6px solid #33bde0;
+	margin-left: -6px;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	color: #33bde0;
+    font-size: 18px;
+    /*font-weight: 800;*/
+}
+
+.nav-item {
+	list-style: none;
+}
+
+.content {
+	width: 73%;
+	float: right;
+}

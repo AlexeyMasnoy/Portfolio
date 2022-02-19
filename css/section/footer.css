@@ -1,0 +1,79 @@
+.footer__content-left, .footer__content-right {
+	float: left;
+	width: 50%;
+}
+
+.footer__content-left:before, .footer__content-right:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.footer__content-left {
+	position: relative;
+    font-size: 14px;
+    font-family: 'FiraSans-Regular', Arial, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer__content-right {
+	position: relative; 
+	display: inline-block;
+    vertical-align: middle;
+	text-align: right;
+}
+
+.footer__content-text {
+	color: #9c9c9c;
+}
+
+.footer__content-items {
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+}
+
+.footer__content-item {
+	display: inline-block;
+}
+
+.footer__content-link {
+	display: block;
+}
+
+/* --- social icons ---*/
+
+.vk-icon {
+	width: 32px;
+	height: 32px;
+	background: url(../../img/icons/vk.png) no-repeat;
+}
+
+.twitter-icon {
+	width: 32px;
+	height: 32px;
+	background: url(../../img/icons/Twitter.png) no-repeat;
+}
+
+.facebook-icon {
+	width: 32px;
+	height: 32px;
+	background: url(../../img/icons/FaceBook.png) no-repeat;
+}
+
+.vk-icon:hover {
+	background: url(../../img/icons/vk-active.png) no-repeat;
+}
+
+.twitter-icon:hover {
+	background: url(../../img/icons/Twitter-active.png) no-repeat;
+}
+
+.facebook-icon:hover {
+	background: url(../../img/icons/FaceBook-active.png) no-repeat;
+}
+

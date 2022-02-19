@@ -1,0 +1,118 @@
+
+.career-left {
+	float: left;
+	width: 40%;
+}
+
+.career-right {
+	float: right;
+	width: 56%;
+}
+
+.career__item {
+	list-style-type: none;
+	text-align: right;
+    font-size: 0;
+    margin-bottom: 20px;
+}
+
+.career__item:first-child .career__block:before {
+	display: none;
+}
+
+.career__item:last-child .career__block:after {
+	display: none;
+}
+
+.career__item:hover .career__year:after {
+    border-color: #94e0f2;
+}
+
+.career__block {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	background: #fff;
+	border-radius: 9px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	padding: 20px;
+	box-sizing: border-box;
+	color: #5a5a5a;
+}
+
+.career__block:before, .career__block:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 1px;
+	background: #ddd;
+	left: -18px;
+}
+
+.career__block:before {
+	top: 0;
+	bottom: 50%;
+	margin-top: -10px;
+}
+
+.career__block:after {
+	top: 58%;
+	bottom: 0;
+	margin-bottom: -10px;
+}
+
+.career__block:hover {
+	background-color: #33c1e3;
+	color: #fff;
+}
+
+.career__block:hover .career__year {
+	color: #33c1e3;
+	font-weight: 600;
+}
+
+.career__title {
+	font-size: 21px;
+}
+
+.career__occupation {
+	font-family: 'FiraSans-Light';
+	font-size: 18px;    
+}
+
+.career__date {
+	font-size: 18px;
+	font-family: 'FiraSans-Light';
+}
+
+.career__year {
+	position: absolute;
+    left: -60px;
+    top: 50%;
+	font-weight: 100;
+	font-size: 14px;
+	margin-top: -10px;
+	vertical-align: middle;
+}
+
+.career__year:after {
+	content: "";
+	display: inline-block;
+	margin-left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 5px solid #f6f6f6;
+	background-color: #33c1e3;
+	vertical-align: middle;
+}
+
+.carer__content-img {
+	object-fit: cover;
+	border-radius: 9px;
+	overflow: hidden;
+	width: 220px;
+	height: 200px;
+}
+
